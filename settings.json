@@ -1,13 +1,13 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "YourBotUsername",
+    "username": "chillguy",
     "password": "",
     "type": "offline"
   },
   "server": {
     "ip": "AmberGlowSMP.aternos.me",
-    "port": 36621,
+    "port"19080: ,
     "version": "",
     "try-creative": false
   },
@@ -31,7 +31,7 @@
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
+        "pls do the rules",
         "I like to play Minecraft!"
       ]
     },
@@ -72,12 +72,12 @@
     "place-night": false
   },
   "discord": {
-    "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "enabled": true,
+    "webhookUrl": "https://discord.gg/cSVsJpkAqg",
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false
+      "chat": true
     }
   },
   "chat": {
